@@ -12,7 +12,7 @@
 
 body{
     background-image: url(./img/back-login.gif);
-    background-size: contain;
+    background-size: cover;
 }
 
 textarea:focus, input:focus{
@@ -102,6 +102,8 @@ input[type="submit"]:hover {
    text-align: center;
    margin: 0 5px;
    cursor: pointer;
+   width: 2rem;
+   height: 2rem;
 }
 
 
@@ -109,4 +111,11 @@ input[type="submit"]:hover {
 
 #register-container p {
     margin-bottom: 1rem;
+}
+
+#coppyright {
+    text-align: center;
+    padding: 0 1rem;
+    margin: 15rem 10rem;
+    display: block;
 }
