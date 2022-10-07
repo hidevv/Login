@@ -12,6 +12,7 @@
 
 body{
     background-image: url(./img/back-login.gif);
+    background-size: contain;
 }
 
 textarea:focus, input:focus{
