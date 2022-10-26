@@ -11,8 +11,8 @@
 }
 
 body{
-    background-image: url(./img/back-login.gif);
-    background-size: cover;
+    background-image: url(img/back-login2.png);
+    background-size: inherit;
 }
 
 textarea:focus, input:focus{
@@ -24,7 +24,7 @@ a, label {
 }
 
 a:hover {
-    color: #085588;
+    color: #f85617;
 }
 
 /* Container Login */
@@ -66,7 +66,7 @@ input {
 }
 
 input:focus {
-    border-bottom:  .15rem solid rgb(47, 45, 190);
+    border-bottom:  .15rem solid #f85617;
 }
 
 #forgot-pass {
@@ -82,12 +82,12 @@ input[type="submit"] {
     border-radius: 1rem;
     margin-top: 1rem;
     color: white;
-    background-color: rgb(17, 0, 255);
+    background-color: #e66d3e;
     cursor: pointer;
 }
 
 input[type="submit"]:hover {
-    background-color: rgb(6, 0, 77);
+    background-color: #f85617;
     transition: .4s;
 }
 
